@@ -1,0 +1,81 @@
+.App{
+    display: flex;
+    justify-content: center;
+}
+.chart{
+    width : 1200px;
+    color: rgb(245, 98, 120);
+    margin-left: 40px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    background: rgba(255, 249, 220, 0.589);
+    border-radius: 12px;
+    
+    box-shadow: 1px 1px 2px 1px rgba(17, 17, 17, 0.199), 1px 3px 10px 1px rgba(17, 17, 17, 0.178);
+}
+.chart:hover{
+box-shadow: 5px 5px 8px 5px #7af5a94f, 5px 6px 20px 5px  #bd16da63;
+    background:rgba(252, 231, 146, 0.719);
+}
+
+.ad{
+    margin-left: 400px;
+    width: 18%;
+    background: #3e0748;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 17px;
+    padding-bottom: 10px;
+    text-align: center;
+box-shadow: 5px 5px 8px 5px rgba(137, 249, 253, 0.199), 5px 6px 20px 5px rgba(145, 248, 255, 0.178);
+}
+.cen{
+    text-align: center;
+}
+.num{
+    color: darkturquoise;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.dis{   
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.uni{
+width: 18%;
+background: #3e0748;
+margin-left: 70px;
+margin-top: 70px;
+border-radius: 17px;
+padding-bottom: 10px;
+text-align: center;   
+margin-bottom: 30px;
+box-shadow: 5px 5px 8px 5px rgba(137, 249, 253, 0.199), 5px 6px 20px 5px rgba(145, 248, 255, 0.178);
+
+}
+
+.ad:hover{
+box-shadow: 10px 10px 10px 10px rgba(17, 17, 17, 0.199), 10px 10px 20px 20px rgba(17, 17, 17, 0.178);
+
+    background: #ea1d63;    
+}
+.uni:hover{
+box-shadow: 10px 10px 10px 10px rgba(17, 17, 17, 0.199), 10px 10px 20px 20px rgba(17, 17, 17, 0.178);
+    background:rgb(255, 222, 91);     
+}
+
+.cen{
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ea1d63;
+    font-weight: 600;
+    font-size: x-large;
+    background: skyblue;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 16px;
+}

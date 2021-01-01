@@ -1,0 +1,127 @@
+.tables {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+      width: 93%;
+      position: relative;
+      vertical-align: center;
+      text-align: center;
+      margin-left: 75px;
+      margin-top: 60px;
+      margin-right: auto;
+    border-radius: 10px;
+    }
+    
+    .page{
+    border: 1px solid #ddd;
+    padding-top: 6px;
+    text-align: center;
+    margin-top : 100px;
+    text-transform: none;
+      padding-bottom: 6px;
+      padding-left: 5px;
+    border-radius: 0px;
+    font-family: 'Rubik', sans-serif;  
+      color: darkcyan;
+      padding: 15px;
+    font-weight: 500;
+    font-size: 18px;
+  
+    }
+    table th{
+        text-transform: uppercase;
+          font-family: 'Jacques Francois Shadow', cursive;
+          text-align: center;
+    }
+    
+  table tbody tr:hover {
+      transition: 0.3s;
+      background-color: rgba(240, 73, 240, 0.336);
+      font-style: oblique;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-size: 17px;
+    }
+  
+    .full{
+      color : white;
+    }
+    
+    table th {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 10px;
+      text-align: center;
+      background : #3e0748;
+      color: white;
+    }
+   thead tr th span{
+        text-align: center;
+        font-style: normal;
+        margin-left : 20px;
+        font-size: 20px;
+    }
+  
+  
+    .pagination {
+      display: block;
+      position: absolute;
+      margin-left : 150px;
+      margin-top: -20px;
+      bottom: 510px;
+    }
+    
+    .pagination button {
+      color: white;
+      cursor: pointer;
+  margin-top: 20px;
+  margin-left : 5px;
+      padding: 8px 16px;
+      background-color: #3e0748e7;
+      text-decoration: none;
+      border: 1px solid transparent;
+      border-radius: 10px;
+    }
+    .pagination .reset{
+      margin-left: 20px;
+      background-color: rgb(5, 5, 8);
+      font-size: 12px;
+    }
+    .pagination .reset:hover{
+      background: rgb(122, 122, 122);
+    }
+    .pagination .reset:focus{
+      background: rgb(5, 5, 8);
+    }
+  
+    .pagination button:focus{
+      outline: none;
+      background-color:  #ea1d63;
+      border: 1px solid  #3e0748;
+    } 
+  
+  
+    .pagination span{
+      margin-left : 20px;
+      font-size : 20px;
+    }
+    .pagination strong{
+      font-size :23px;
+      margin-top: 10px;
+      color :#ea1d63;
+       
+    }
+  
+  
+    .nodata{
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Spirax', cursive;
+      font-weight: 600;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      padding-top: 40px;
+      color:  rgb(16, 12, 248);
+    }
+  
+    .hide{
+      display: none;
+    }

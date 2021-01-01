@@ -1,0 +1,30 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ea1d63; 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  #9610ada4; 
+}
+
+::-webkit-search-cancel-button{
+  font-size: 60px;
+}
+::-webkit-scrollbar-button{
+  color: blue;
+}
+::-webkit-scrollbar-track-piece{
+  cursor: pointer;
+}
