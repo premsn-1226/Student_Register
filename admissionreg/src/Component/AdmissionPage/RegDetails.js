@@ -23,7 +23,7 @@ const RegDetails = ({ book }) => {
     
     return (
         <>  
-        <div className="pagination">
+        <div className="paginations">
             <button className="tooltip" onClick={()=> gotoPage(0)} disabled={!canPreviousPage}><span className="tooltiptext">First</span>{'<<'}</button>
             <button className="tooltip" onClick={()=> previousPage()} disabled={!canPreviousPage}><span className="tooltiptext">Previous</span>❮</button>
 <span><strong className="tooltip"><span className="tooltiptext">Current page</span>{pageIndex + 1}</strong> ... {pageOptions.length}{'  '}</span>
