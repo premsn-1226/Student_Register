@@ -21,20 +21,6 @@ export const Column = [
 
     },
     {
-        Header : 'CODE',
-        Footer : 'Code',
-        accessor : 'alpha_two_code',
-        Filter : ''
-
-    },
-    {
-        Header : 'DOMAIN',
-        Footer: 'Domain',
-        accessor : 'domains',
-        Filter : ''
-
-    }, 
-    {
         Header : 'OFFICIAL WEBSITE',
         Footer : 'Official Website',
         accessor : 'web_pages',
